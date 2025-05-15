@@ -1,0 +1,7 @@
+Git init -- to initialize git, .git will be created in that path.
+Git status -- to know the status of that location/path. it gives details of untracked files and what are commited and what are pending.
+Git add .  or Git add file_name   --- to add the files so that are ready to commited. 
+Git commit -m "first_commit"   --- To commit the changes
+Git remote add origin "url"    --- Origin is the name which we are giving to that particular Url, with that we can access it.
+Git push -u origin master ---- origin is the name which we have given to url and we are mentioning that push the changes to master branch.
+
