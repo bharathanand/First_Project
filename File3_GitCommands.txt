@@ -3,5 +3,30 @@ Git status -- to know the status of that location/path. it gives details of untr
 Git add .  or Git add file_name   --- to add the files so that are ready to commited. 
 Git commit -m "first_commit"   --- To commit the changes
 Git remote add origin "url"    --- Origin is the name which we are giving to that particular Url, with that we can access it.
-Git push -u origin master ---- origin is the name which we have given to url and we are mentioning that push the changes to master branch.
+Git push -u origin master ---- origin is the name which we have given to url and we are mentioning that push the changes of master branch. we can push which ever branch we want.
+
+Git log  -- to see log of all commits
+git log --oneline    ( to see allin one line)
+git branch bug1 213i23f    ( bug1 branch name and id is SHA value from log)
+git branch    --- to display all branches available.
+git checkout branch_name   --- will switch to that brnch and changes which are there upto that branch will reflect.
+git remote -- to check remote name
+git remote -v    -- will give http link of our remote.
+
+git branch branch_name ---- we we don't give any reference it will create bank from current working branch.
+
+git merge bug1 ---- it will merge the bug1 branch will current working branch(master or any other current working one), if you are in someother branch first u should checkout with the branch where u want to merge).
+
+git branch -d Bug1 -----Command to delete Branch in git
+git push -d origin Bug1   ---- command to delete branch in remote github.
+
+git clone URL   --- to clone the reposity to the local 
+
+
+git pull origin master --- to pull the code 
+
+
+
+
+
 
